@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta name="keywords" content="网页制作，Image Carousel，图片轮播"/>
+	<meta name="description" content="网页制作，Image Carousel，图片轮播"/>
+	<!--  -->
+	<link rel="shortcut icon" href="../src/img/123.png">
+    <link rel="stylesheet" type="text/css" />
+
+	<title>网页制作，Image Carousel，图片轮播</title>
+	<style>
+	
+		
+		#flash{width:1200px;height: 535px;margin: 0px auto;position: relative;}
+		#flash #play{width:1200px;height: 535px;list-style: none;position:absolute;top:0px;left:0px;}
+		#flash #play li{display: none;position:absolute;top:0px;left:0px;}
+		#flash #play li img{float: left;width:1200px;height: 535px;}
+		#button{position: absolute;bottom:20px;left:470px;list-style: none;}
+		#button li{margin-left: 10px;float: left;}
+		#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+		#prev{width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
+		#next{width:40px;height:63px;background:url(images/beijing.png) -40px 0px;position: absolute;top:205px;right:10px;z-index: 1000;}
+		#prev:hover{background:url(images/beijing.png) 0px -62px;}
+		#next:hover{background:url(images/beijing.png) -40px -62px;}
+	</style>
+		<script type="text/javascript" src="../src/carousel.js"></script>
+</head>
+<body>
+		<!--header-->		
+		<!--header-->
+	
+	
+
+  	
+	<!--carousel-->
+	 <div id="flash">
+	 <div id="prev"></div>
+     <div id="next"></div>
+	 <ul id="play">
+	 	 <li style="display: block; width: 90%; height: 500px"><img src="../src/img/1.jpg" alt="" /></li>
+	 	<li><img src="../src/img/2.jpg" alt="" /></li>
+	 	<li><img src="../src/img/3.jpg" alt="" /></li>
+	 </ul>
+	 <ul id="button">
+	 	<li><div style="background: #A10000;"></div></li>
+	 	<li><div></div></li>
+	 	<li><div></div></li>
+	 	
+	 </ul>
+ 	</div>
+
+
+</body>
+</html>
